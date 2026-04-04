@@ -1,51 +1,37 @@
-# Hi, I'm Ishaku 👋
-
-SOC / Cloud Security Enthusiast with hands-on experience in security monitoring, log analysis, and cloud-based application deployment.
-
----
-
-## 🔧 Skills
-- SIEM: Splunk  
-- Cloud: AWS (EC2, RDS)  
-- Log Analysis: Windows Event Logs (4624, 4625, 4688)  
-- Security Monitoring & Incident Investigation  
-- Basic Networking (TCP/IP)  
-
----
-
 ## 🚀 Projects
 
 ### 🔹 PrestaShop Deployment on AWS (EC2 + RDS)
-Deployed a cloud-based e-commerce application using Amazon EC2 as the web server and Amazon RDS (MySQL) as the database.
+Deployed a cloud-based e-commerce application using Amazon EC2 as the web server and Amazon RDS (MySQL) as the backend database.
 
-- Configured Apache and PHP on Ubuntu server  
-- Connected application securely to RDS  
-- Implemented security groups to control access (SSH, HTTP, MySQL)  
-- Resolved database connection and permission issues during deployment  
+- Set up Ubuntu server and installed Apache, PHP, and required dependencies  
+- Connected application securely to RDS using endpoint and port 3306  
+- Configured security groups to control access (SSH, HTTP, and database traffic)  
+- Troubleshot database connectivity and file permission issues  
+- Verified successful deployment via browser and admin dashboard  
 
-👉 [View Project](https://github.com/qwesomeishak/prestashop-aws-deployment)
+👉 https://github.com/qwesomeishak/prestashop-aws-deployment
 
 ---
 
 ### 🔹 SOC Brute Force Detection using Splunk
 Simulated and investigated brute force login activity using Splunk and Windows authentication logs.
 
-- Analysed Event IDs 4624 & 4625  
-- Detected multiple failed login attempts followed by successful login  
-- Built attack timeline and assessed risk  
+- Analysed Event IDs 4624 (successful login) and 4625 (failed login)  
+- Identified repeated failed login attempts followed by successful authentication  
+- Correlated events to build a timeline of attack activity  
+- Assessed potential credential compromise and documented findings  
 - Mapped activity to MITRE ATT&CK (T1110 – Brute Force)  
 
-👉 [View Project](https://github.com/qwesomeishak/SOC-Brute-Force-Detection-Splunk)
+👉 https://github.com/qwesomeishak/SOC-Brute-Force-Detection-Splunk
 
 ---
 
-## 📫 Contact
-Email: ishaku.anjilin@gmail.com
+### 🔹 GitHub Portfolio (Project Hub)
+Built a central GitHub profile to showcase hands-on cloud and cybersecurity projects.
 
----
+- Structured repositories for easy navigation and quick review  
+- Highlighted key projects in AWS deployment and SOC investigation  
+- Maintained clear, concise, and readable documentation  
+- Provided a single hub linking all practical work  
 
-## 🎯 Focus
-Currently focused on:
-- SOC Analyst roles  
-- Cloud Security  
-- Hands-on SIEM and AWS projects  
+👉 https://github.com/qwesomeishak
